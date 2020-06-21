@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+
+	<div id="cont">
+		
+		<!-- input and plus button -->
+		<input type="text" id="item" placeholder="Type your Todo List">
+		<button type="submit" id="add"><span><i class="fa fa-plus"></span></i></button>
+
+		<!-- list of items -->
+		<ul id="listitem">
+
+			<label class="container">
+  				<input type="checkbox">
+  				<li>Sample 1<span class="list"><i class="fa fa-trash"></i></span></li>
+			</label>
+
+			<label class="container">
+  				<input type="checkbox">
+  				<li>Sample 1<span class="list"><i class="fa fa-trash"></i></span></li>
+			</label>
+				
+		</ul>
+
+		<!-- no of lists -->
+        <p id="number"><span>2</span> tasks left</p>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
